@@ -1,3 +1,0 @@
-import { Router } from '@angular/router';
-
-export routes: Router
