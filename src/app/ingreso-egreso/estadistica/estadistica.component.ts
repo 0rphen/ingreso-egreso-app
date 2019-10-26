@@ -41,6 +41,6 @@ export class EstadisticaComponent implements OnInit {
                 this.egresos += item.monto;
             }
         });
-        this.doughnutChartData = [[this.ingresos], [this.egresos]];
+        this.doughnutChartData = [[this.ingresos, this.egresos]];
     }
 }
